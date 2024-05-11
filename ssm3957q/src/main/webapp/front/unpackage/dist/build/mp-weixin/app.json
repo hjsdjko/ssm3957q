@@ -1,0 +1,88 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/xianluxinxi/list",
+    "pages/xianluxinxi/add-or-update",
+    "pages/xianluxinxi/detail",
+    "pages/zhandianfenlei/list",
+    "pages/zhandianfenlei/add-or-update",
+    "pages/zhandianfenlei/detail",
+    "pages/zhandianxinxi/list",
+    "pages/zhandianxinxi/add-or-update",
+    "pages/zhandianxinxi/detail",
+    "pages/zhoubianfenlei/list",
+    "pages/zhoubianfenlei/add-or-update",
+    "pages/zhoubianfenlei/detail",
+    "pages/zhoubianxinxi/list",
+    "pages/zhoubianxinxi/add-or-update",
+    "pages/zhoubianxinxi/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/discussxianluxinxi/list",
+    "pages/discussxianluxinxi/add-or-update",
+    "pages/discussxianluxinxi/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "公交信息在线查询系统小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#996666",
+    "borderStyle": "black",
+    "backgroundColor": "#CC99CC",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/xianluxinxi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "线路信息"
+      },
+      {
+        "pagePath": "pages/zhandianxinxi/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "站点信息"
+      },
+      {
+        "pagePath": "pages/zhoubianxinxi/list",
+        "iconPath": "/static/tabs/icon3.png",
+        "selectedIconPath": "/static/tabs/icon3_act.png",
+        "text": "周边信息"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
